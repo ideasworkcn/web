@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>IdeaWork - AI 创意与效率工具</title>
+    <link rel="stylesheet" href="web/style.css" />
+    <!-- 引入 Google Fonts 字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">IdeaWork</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#note" class="nav-link">IdeaNote</a></li>
+                <li class="nav-item"><a href="#video" class="nav-link">VideoFlow</a></li>
+                <li class="nav-item"><a href="#agile" class="nav-link">AgileDao</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link btn-contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main class="main-content">
+        
+        <!-- 项目 1: IdeaNote -->
+        <section id="note" class="project-section">
+            <div class="project-header">
+                <h1>IdeaNote</h1>
+                <span class="badge">AI 智能写作</span>
+            </div>
+            <div class="project-content">
+                <div class="project-text">
+                    <p class="intro">一款基于 Electron 的跨平台桌面应用，专为创意写作者打造。集成了先进的 AI 技术，提供智能写作辅助、富文本编辑等功能。</p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h3>📝 智能编辑器</h3>
+                            <ul>
+                                <li>基于 Tiptap 的 Notion 风格 WYSIWYG 编辑器</li>
+                                <li>集成 DeepSeek AI，支持文稿润色与语法检查</li>
+                                <li>支持数学公式、代码块、实时 Markdown 预览</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🤖 AI 写作助手</h3>
+                            <ul>
+                                <li><strong>内容扩写/缩写：</strong>智能扩展或提炼文本</li>
+                                <li><strong>创意生成：</strong>营销文案、教程、课程大纲模板</li>
+                                <li><strong>流式响应：</strong>实时 AI 内容生成体验</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🛠️ 技术架构</h3>
+                            <p>Electron + React 18 + TypeScript | Vite 构建</p>
+                            <p>Tailwind CSS 美学 | Radix UI 组件库</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image mockup">
+                    <div class="screen">IdeaNote UI 预览区</div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- 项目 2: VideoFlow -->
+        <section id="video" class="project-section alt-bg">
+            <div class="project-header">
+                <h1>VideoFlow</h1>
+                <span class="badge bg-purple">视频全流程管理</span>
+            </div>
+            <div class="project-content">
+                <div class="project-image mockup">
+                    <div class="screen">VideoFlow 界面预览区</div>
+                </div>
+                <div class="project-text">
+                    <p class="intro">一款专注于提升企业视频制作效率的全流程管理平台，适用于企业培训、短视频营销及在线课程制作。</p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h3>🎥 核心功能</h3>
+                            <ul>
+                                <li><strong>项目管理：</strong>文案管理与制作进度跟踪</li>
+                                <li><strong>脚本工具：</strong>PPT 自动生成、智能提词器</li>
+                                <li><strong>素材库：</strong>音乐库与封面制作工具</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🚀 产品优势</h3>
+                            <ul>
+                                <li><strong>全流程闭环：</strong>从文案构思到成片发布</li>
+                                <li><strong>AI 赋能：</strong>智能语音生成与字幕制作</li>
+                                <li><strong>协作高效：</strong>团队成员实时同步状态</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="cta-box">
+                        <p>🌐 <strong>项目测试地址：</strong> <a href="http://scrum.ideaswork.cn:3000/" target="_blank">scrum.ideaswork.cn:3000</a></p>
+                        <small>💡 提示：可注册账户使用，线上环境仅作测试，每次更新会覆盖数据。</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- 项目 3: AgileDao -->
+        <section id="agile" class="project-section">
+            <div class="project-header">
+                <h1>AgileDao</h1>
+                <span class="badge bg-green">敏捷开发 Scrum</span>
+            </div>
+            <div class="project-content">
+                <div class="project-text">
+                    <p class="intro">复刻 PingCode 和 禅道 的极简开源 Scrum 管理软件。适合小型团队和独立开发者，旨在实践“敏捷之道”。</p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h3>📊 管理功能</h3>
+                            <ul>
+                                <li><strong>可视化：</strong>用户故事地图与产品待办事项</li>
+                                <li><strong>迭代管理：</strong>Sprint 规划与任务分配</li>
+                                <li><strong>工时分析：</strong>记录工作时间与燃尽图</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🧭 软件含义</h3>
+                            <p><strong>敏捷：</strong>快速响应需求变化，拥抱 Scrum 框架。</p>
+                            <p><strong>道：</strong>不仅是工具，更是实践敏捷开发的路径。</p>
+                        </div>
+                    </div>
+
+                    <div class="video-demo">
+                        <h3>🎬 视频演示</h3>
+                        <div class="video-container">
+                            <!-- 这里可以嵌入 B站 或 YouTube 的 iframe，或者放一张截图 -->
+                            <p>Dashboard 预览图</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image mockup">
+                    <div class="screen">AgileDao 看板视图</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们 -->
+        <section id="contact" class="contact-section">
+            <h2>关于 IdeaWork</h2>
+            <p class="team-desc">
+                我们致力于开发高效、智能的生产力工具。无论是创意写作、视频制作还是软件开发管理，我们都希望通过技术赋能每一个创作者和团队。
+            </p>
+            <div class="contact-info">
+                <p>👨‍💻 <strong>作者：</strong> ideaswork</p>
+                <p>📧 <strong>邮箱：</strong> <a href="mailto:ideaswork@qq.com">ideaswork@qq.com</a></p>
+                <p>📺 <strong>B站账号：</strong> <a href="https://space.bilibili.com/@ideaswork" target="_blank">@ideaswork</a></p>
+                <p>🐙 <strong>开源项目：</strong> <a href="https://github.com/ideasworkcn" target="_blank">github.com/ideasworkcn</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2026 IdeaWork. 用代码创造价值。</p>
+    </footer>
+</body>
+</html>
